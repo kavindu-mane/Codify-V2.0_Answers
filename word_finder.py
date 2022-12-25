@@ -10,4 +10,4 @@ try:
 except:
     print("ERROR")
     
-#test case 2 not match this solution
+#this solution not match for test case 2
