@@ -6,7 +6,7 @@ def PrimeOrNot(num):
     elif(num < 2 or num % 2 == 0):
         return "NOT PRIME"
     else:
-        # using Miller - Rubing test         
+        # using Miller - Rabing test         
         k, m = 0, num - 1
         while m % 2 == 0:
             k += 1
