@@ -1,7 +1,7 @@
 import random
 
 def PrimeOrNot(num):
-    if(num == 2):
+    if(num == 2 or num == 3):
         return "PRIME"
     elif(num < 2 or num % 2 == 0):
         return "NOT PRIME"
